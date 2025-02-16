@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Form Validation in JavaScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <header class="signup-header"><h1>CREATE AN ACCOUNT</h1></header>
+        <main class="signup-body">
+          <form action="#">
+            <p>
+            <label for="name">Full Name</label>
+              <input type="text" placeholder="Full Name" id="name" />
+            <i class="fa-solid"></i>
+              <span id="nameError"></span>
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input type="email" placeholder="Email Address" id="email" />
+              <i class="fa-solid"></i>
+              <span id="emailError"></span>
+            </p>
+            <p>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                placeholder="Password"
+                id="password"
+              />
+              <i class="fa-solid"></i>
+              <span id="passError"></span>
+            </p>
+            <p>
+              <label for="confirmpassword">Confirm Password</label>
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                id="confirmpassword"
+              />
+              <i class="fa-solid"></i>
+              <span id="confirm-passError"></span>
+            </p>
+            <p>
+              <label for="contact">Contact</label>
+              <input
+                type="number"
+                placeholder="03xxxxxxxxx"
+                id="contact"
+              />
+              <i class="fa-solid"></i>
+              <span id="contactError"></span>
+            </p>
+            <p>
+              <input type="submit" value="Create Account" id="submitBtn"/>
+            </p>
+          </form>
+        </main>
+        <footer class="signup-footer">
+          <p>Already have an account ? <a href="">Sign In</a></p>
+        </footer>
+      </div>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+  <!-- Add Script file of font awsome to access the icons -->
+</html>
