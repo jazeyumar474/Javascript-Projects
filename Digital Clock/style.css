@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("images/wallpaperflare.com_wallpaper.jpg")
+  no-repeat;
+  background-size: cover;
+}
+
+.clock {
+  width: 340px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #212529;
+  box-shadow: 0 0 10px #212529, 0 10px 20px #212529;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.clock h1 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+
+.clock span {
+  font-size: 30px;
+  font-weight: 300;
+  margin-left: 3px;
+  position: relative;
+  top: -18%;
+}
+
+.clock h2 {
+  font-size: 22px;
+  font-weight: 300;
+}
